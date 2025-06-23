@@ -30,12 +30,12 @@
     <div class="left" style="height: 445px;">
         <ul style="padding: 18px 19px 19px 0;">
             <li exist_figure="" class="act">邓金坤 <div class="dot"></div> <span>指导专家</span></li>
-            <li exist_figure="" class="">李建文<div class="dot"></div> <span>指导老师</span></li>
-            <li exist_figure="" class="">于蓓蓓<div class="dot"></div> <span>指导老师</span></li>
-            <li exist_figure="">王祈帆<div class="dot"></div> <span>指导老师</span></li>
-            <li exist_figure="">蔡思琪<div class="dot"></div> <span>指导老师</span></li>
-            <li exist_figure="">林秀琴<div class="dot"></div> <span>指导老师</span></li>
-            <li exist_figure="">薛翔鸿<div class="dot"></div> <span>指导老师</span></li>     </ul>
+            <li exist_figure=""> 黄 莹 <div class="dot"></div> <span>指导专家</span></li>
+            <li exist_figure="" class="">李建文<div class="dot"></div> <span>指导专家</span></li>
+            <li exist_figure="" class="">于蓓蓓<div class="dot"></div> <span>指导专家</span></li>
+            <li exist_figure="">王祈帆<div class="dot"></div> <span>指导专家</span></li>
+            <li exist_figure="">陈艳红<div class="dot"></div> <span>指导专家</span></li>
+            <li exist_figure="">薛翔鸿<div class="dot"></div> <span>指导专家</span></li>     </ul>
     </div>
        <style>
 </style>
@@ -65,63 +65,3 @@
 </html>
 
 
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <!-- 关键视口设置 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>全屏图片解决方案</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* 全屏容器 */
-        .container {
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden;
-            position: relative;
-        }
-
-        /* 响应式图片样式 */
-        .fullscreen-img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* 保持比例覆盖容器 */
-        }
-
-        /* 移动端特殊适配 */
-        @media (max-width: 768px) {
-            .container {
-                height: 100dvh; /* 解决移动浏览器工具栏问题 */
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- 使用srcset提供响应式图片源 -->
-        <img
-            src="large-image.jpg"
-            alt="全屏图片"
-            class="fullscreen-img"
-            srcset="small-image.jpg 768w, medium-image.jpg 1024w"
-            sizes="100vw"
-        >
-    </div>
-</body>
-</html>
